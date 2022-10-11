@@ -1,24 +1,22 @@
-// utils 
-@import "./utils/normalize";
-@import "./utils/variables";
-@import './utils/visually-hidden';
+@import "./utils/vars";
+@import "./utils/visually-hedden";
 
-//base styles
+@import "./base/base";
 @import "./base/reset";
-@import"./base/base";
+@import "./base/container";
 
-// components
-@import "./components/container";
-@import "./components/logo";
-@import "./components/modal";
+@import "./components/button";
+@import "./components/svg";
+@import "./components/_mobile-menu";
+@import "./components/text";
+@import "./components/border";
 
-//layouts
-@import "./layouts/page-header";
-@import "./layouts/nav";
+@import "./layouts/footer";
+@import "./layouts/header";
 @import "./layouts/hero";
 @import "./layouts/features";
-@import "./layouts/activity";
+@import "./layouts/projects";
 @import "./layouts/team";
 @import "./layouts/clients";
-@import "./layouts/portfolio";
-@import "./layouts/footer";
+@import "./layouts/products";
+@import "./layouts/modal_window";
